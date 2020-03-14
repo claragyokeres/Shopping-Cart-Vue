@@ -3,6 +3,9 @@
     <div class="logo">
       <PanagoraLogo />
     </div>
+    <div class="cart">
+      <Cart />
+    </div>
     <div id="nav">
       <router-link to="/">Products</router-link>|
       <router-link to="/about">About</router-link>
@@ -12,9 +15,11 @@
 </template>
 <script>
 import PanagoraLogo from "./components/PanagoraLogo";
+import Cart from "./components/Cart";
 export default {
   components: {
-    PanagoraLogo
+    PanagoraLogo,
+    Cart
   }
 };
 </script>
