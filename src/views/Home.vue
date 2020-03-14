@@ -1,9 +1,10 @@
 <template>
   <div class="home">
-    <h1>This is my Shopping cart</h1>
     <div class="productlist">
       <article v-for="product in products" v-bind:key="product.id" class="product">
-        <img class="thumbnail" :src="product.thumbnail" />
+        <router-link to="/product-info">
+          <img class="thumbnail" :src="product.thumbnail" />
+        </router-link>
         <p class="product-title">{{product.name}}</p>
         <p class="product-price">{{product.price}}:-</p>
       </article>
@@ -23,3 +24,11 @@ export default {
   mounted() {}
 };
 </script>
+
+<style lang="scss" scoped>
+.productlist {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+</style>
