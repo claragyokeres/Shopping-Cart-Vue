@@ -1,10 +1,19 @@
 <template>
   <div class="cart-summary">
-    <p>Total:</p>
-    <p>Items:</p>
+    <p>Total: {{ totalAmount }}</p>
+    <p>Items: {{ itemCount }}</p>
   </div>
 </template>
 
 <script>
-export default {};
+import { mapGetters } from "vuex";
+export default {
+  computed: {
+    ...mapGetters({
+      itemCount: "count",
+      totalAmount: "totalSum"
+    })
+  }
+};
 </script>
+
