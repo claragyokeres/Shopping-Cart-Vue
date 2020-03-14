@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0aeeda"],{"0bc5":function(e){e.exports=JSON.parse('{"id":4,"name":"adidas Originals Deerupt Runner","price":999,"currency":"SEK","image":"/images/4.jpg","thumbnail":"/images/4-thumb.jpg","description":"The adidas Deerupt combines adidas running heritage of the ´80s with new innovative lightweight technologies."}')}}]);
+//# sourceMappingURL=chunk-2d0aeeda.4684996d.js.map

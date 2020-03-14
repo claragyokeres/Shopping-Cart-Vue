@@ -6,7 +6,7 @@
           <img class="thumbnail" :src="product.thumbnail" />
         </router-link>
         <p class="product-title">{{product.name}}</p>
-        <p class="product-price">{{product.price}}:-</p>
+        <p class="product-price">{{product.price}} SEK</p>
       </article>
     </div>
   </div>
@@ -30,5 +30,17 @@ export default {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+}
+
+.product-title {
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 1px;
+}
+
+.product-price {
+  text-align: left;
+  font-size: 18px;
+  margin-top: 1px;
 }
 </style>

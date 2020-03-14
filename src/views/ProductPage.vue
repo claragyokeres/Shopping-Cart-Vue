@@ -3,9 +3,9 @@
     <article>
       <img class="product-image" :src="product.image" />
       <p class="product-title">{{product.name}}</p>
-      <p class="product-price">{{product.price}} {{ product.currency }}:-</p>
-      <p>{{product.description}}</p>
-      <button @click="addToCart" class="add-to-cart" type="button">ADD ITEM</button>
+      <p class="product-description">{{product.description}}</p>
+      <p class="product-price">{{product.price}} {{ product.currency }}</p>
+      <button @click="addToCart" class="add-to-cart" type="button">Add to cart</button>
     </article>
   </div>
 </template>
@@ -43,7 +43,21 @@ export default {
   max-width: 40%;
 }
 
+.product-title {
+  font-weight: bold;
+}
+
+.product-description {
+  width: 80%;
+  text-align: center;
+  display: inline-block;
+}
+
 .add-to-cart {
-  border: 1px solid black;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid #000;
 }
 </style>

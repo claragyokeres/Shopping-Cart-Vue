@@ -1,7 +1,6 @@
 <template>
   <div class="cart-summary">
-    <p>Total: {{ totalAmount }}</p>
-    <p>Items: {{ itemCount }}</p>
+    <p>Total: {{ totalAmount }} :- Items: ( {{ itemCount }} )</p>
   </div>
 </template>
 
@@ -17,3 +16,10 @@ export default {
 };
 </script>
 
+<style lang="scss" scoped>
+.cart-summary {
+  margin-left: 70%;
+  border: solid 1px black;
+  margin-right: 20px;
+}
+</style>

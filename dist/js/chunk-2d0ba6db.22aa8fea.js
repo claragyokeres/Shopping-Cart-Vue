@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0ba6db"],{"36bd":function(i){i.exports=JSON.parse('{"id":8,"name":"Nike Sportswear Air Max 97/Plus","price":1849,"currency":"SEK","image":"/images/8.jpg","thumbnail":"/images/8-thumb.jpg","description":"The expanding family of Nike hybrids is steadily growing. This time the Nike Air Max 97 Plus shows a Nike Air Max Plus, otherwise known as Nike TN, with a Nike Air Max 97 midsole, well recognizable for its big window."}')}}]);
+//# sourceMappingURL=chunk-2d0ba6db.22aa8fea.js.map

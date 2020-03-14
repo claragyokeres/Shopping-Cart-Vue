@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d237780"],{faf5:function(e){e.exports=JSON.parse('{"id":2,"name":"Nike Sportswear The 10: Air Vapormax FK x Off-White","price":2499,"currency":"SEK","image":"/images/2.jpg","thumbnail":"/images/2-thumb.jpg","description":"Fresh off being announced as the new Louis Vuitton Menswear Designer, his second Air Jordan 1 “White” and of course “The 10”, Virgil Abloh and his Off-White imprint are back at it with a new Nike collaboration."}')}}]);
+//# sourceMappingURL=chunk-2d237780.9e474553.js.map

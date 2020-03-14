@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0a4792"],{"071f":function(e){e.exports=JSON.parse('{"id":7,"name":"Jordan Brand Air Jordan XXXII CNY","price":1999,"currency":"SEK","image":"/images/7.jpg","thumbnail":"/images/7-thumb.jpg","description":"First released in 2017, the Air Jordan 32 will now get its 2018 Chinese New Year treatment by the Jordan Brand family."}')}}]);
+//# sourceMappingURL=chunk-2d0a4792.34432982.js.map

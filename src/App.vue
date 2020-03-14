@@ -7,7 +7,7 @@
       <Cart />
     </div>
     <div id="nav">
-      <router-link to="/">Products</router-link>|
+      <router-link to="/">Products</router-link>
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
@@ -33,6 +33,10 @@ export default {
   color: #2c3e50;
 }
 
+.logo {
+  margin-top: 30px;
+}
+
 #nav {
   padding: 30px;
 }
@@ -40,9 +44,7 @@ export default {
 #nav a {
   font-weight: bold;
   color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+  padding: 15px;
+  text-decoration: none;
 }
 </style>
