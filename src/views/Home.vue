@@ -2,7 +2,7 @@
   <div class="home">
     <div class="productlist">
       <article v-for="product in products" v-bind:key="product.id" class="product">
-        <router-link to="/product-info">
+        <router-link :to="{ name: 'ProductInfo', params: { id: product.id} }">
           <img class="thumbnail" :src="product.thumbnail" />
         </router-link>
         <p class="product-title">{{product.name}}</p>
