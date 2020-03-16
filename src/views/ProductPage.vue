@@ -54,10 +54,10 @@ export default {
 }
 
 .add-to-cart {
-  padding: 1rem;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: 2px solid #000;
+  color: white;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  background-color: black;
+  margin-bottom: 30px;
 }
 </style>
