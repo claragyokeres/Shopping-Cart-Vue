@@ -1,24 +1,5 @@
-# shopping-cart-vue
+Shopping Cart in Vue
 
-## Project setup
-```
-npm install
-```
+In this project, I am building a shopping cart in Vue. 
+The project has a shopping cart function and a page for each of the items listed showing information about the product and making it possible to add the product in the cart. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
