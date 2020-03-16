@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .product-image {
-  max-width: 40%;
+  width: 40%;
 }
 
 .product-title {
